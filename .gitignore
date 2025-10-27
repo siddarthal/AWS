@@ -1,0 +1,28 @@
+# AWS Credentials
+.aws/
+*.pem
+*.key
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# AWS specific
+awscliv2.zip
+aws/
+

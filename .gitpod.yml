@@ -1,0 +1,102 @@
+# Gitpod Configuration for AWS Development
+
+# Tasks to run on workspace startup
+tasks:
+  - name: Setup AWS Environment
+    init: |
+      # Install AWS CLI (latest version)
+      echo "📦 Installing AWS CLI..."
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      unzip -q awscliv2.zip
+      sudo ./aws/install --update
+      rm -rf aws awscliv2.zip
+      
+      # Make all bash scripts executable
+      echo "🔧 Making bash scripts executable..."
+      chmod +x SAP_CO2/S2/bash-scripts/*
+      
+      echo "✅ Setup complete!"
+    
+    command: |
+      # Display helpful information on startup
+      clear
+      echo "╔════════════════════════════════════════════════════════════════╗"
+      echo "║          AWS Development Environment - Ready! 🚀               ║"
+      echo "╚════════════════════════════════════════════════════════════════╝"
+      echo ""
+      echo "📋 Available bash scripts in SAP_CO2/S2/bash-scripts/:"
+      echo "  • create-bucket      - Create an S3 bucket"
+      echo "  • delete-bucket      - Delete an S3 bucket"
+      echo "  • list-buckets       - List all S3 buckets"
+      echo "  • list-objects       - List objects in a bucket"
+      echo "  • put-objects        - Upload objects to a bucket"
+      echo "  • sync                - Sync files to S3"
+      echo "  • get-newest-buckets - Get newest buckets"
+      echo ""
+      echo "⚙️  AWS CLI version:"
+      aws --version
+      echo ""
+      echo "🔐 To configure AWS credentials, use one of these methods:"
+      echo ""
+      echo "  Method 1: Environment Variables (Recommended for Gitpod)"
+      echo "  --------------------------------------------------------"
+      echo "  Go to: https://gitpod.io/user/variables"
+      echo "  Add these variables with scope: <your-repo-url>/*"
+      echo "    • AWS_ACCESS_KEY_ID"
+      echo "    • AWS_SECRET_ACCESS_KEY"
+      echo "    • AWS_DEFAULT_REGION (e.g., ap-south-2)"
+      echo ""
+      echo "  Method 2: AWS Configure (Session only)"
+      echo "  ---------------------------------------"
+      echo "  Run: aws configure"
+      echo "  Note: This won't persist across workspace restarts"
+      echo ""
+      echo "  Method 3: Temporary Credentials (Quick Test)"
+      echo "  ---------------------------------------------"
+      echo "  export AWS_ACCESS_KEY_ID=your_access_key"
+      echo "  export AWS_SECRET_ACCESS_KEY=your_secret_key"
+      echo "  export AWS_DEFAULT_REGION=ap-south-2"
+      echo ""
+      echo "📝 Example usage:"
+      echo "  cd SAP_CO2/S2/bash-scripts"
+      echo "  ./list-buckets"
+      echo "  ./create-bucket my-test-bucket-$(date +%s)"
+      echo ""
+      echo "═══════════════════════════════════════════════════════════════"
+      echo ""
+      
+      # Check if AWS credentials are configured
+      if aws sts get-caller-identity &> /dev/null; then
+        echo "✅ AWS credentials are configured!"
+        aws sts get-caller-identity
+      else
+        echo "⚠️  AWS credentials not configured yet. See instructions above."
+      fi
+      echo ""
+
+# VS Code extensions to install
+vscode:
+  extensions:
+    - timonwong.shellcheck          # Shell script linter
+    - foxundermoon.shell-format     # Shell script formatter
+    - amazonwebservices.aws-toolkit-vscode  # AWS Toolkit
+    - redhat.vscode-yaml            # YAML support
+
+# GitHub prebuilds (optional - uncomment if using GitHub)
+# github:
+#   prebuilds:
+#     master: true
+#     branches: true
+#     pullRequests: true
+#     pullRequestsFromForks: false
+#     addCheck: false
+#     addComment: false
+
+# Ports configuration (if you plan to run any web services)
+ports:
+  - port: 3000-9000
+    onOpen: ignore
+
+# Workspace configuration
+workspaceLocation: "."
+
