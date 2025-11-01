@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html
+# create bucket name
+echo "+++++ create bucket ++++++ "
+if [ -z "$1" ]; then
+  echo "There is need to be a bucket name. ./bucket my-bucket-name "
+  exit 1
+fi
+  
+aws s3api create-bucket --bucket "$1"\
+ --region ap-south-2\
+ --create-bucket-configuration LocationConstraint=ap-south-2\
+ --query Location\
+ --output text\

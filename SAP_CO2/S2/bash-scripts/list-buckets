@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "---- list of buckets "
+aws s3api list-buckets --query "Buckets[].Name" --output text
+

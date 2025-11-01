@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.myapp.AppTest" time="0.186" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="surefire.printSummary" value="true"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp/target/test-classes:/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp/target/classes:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/s3/2.21.29/s3-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/aws-xml-protocol/2.21.29/aws-xml-protocol-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/aws-query-protocol/2.21.29/aws-query-protocol-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/protocol-core/2.21.29/protocol-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/arns/2.21.29/arns-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/profiles/2.21.29/profiles-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/crt-core/2.21.29/crt-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-auth/2.21.29/http-auth-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/identity-spi/2.21.29/identity-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-auth-spi/2.21.29/http-auth-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-auth-aws/2.21.29/http-auth-aws-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/checksums-spi/2.21.29/checksums-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/checksums/2.21.29/checksums-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/sdk-core/2.21.29/sdk-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/auth/2.21.29/auth-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-client-spi/2.21.29/http-client-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/regions/2.21.29/regions-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/annotations/2.21.29/annotations-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/utils/2.21.29/utils-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/aws-core/2.21.29/aws-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/metrics-spi/2.21.29/metrics-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/json-utils/2.21.29/json-utils-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/third-party-jackson-core/2.21.29/third-party-jackson-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/endpoints-spi/2.21.29/endpoints-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/url-connection-client/2.21.29/url-connection-client-2.21.29.jar:/Users/siddarthalegala/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.3/aws-lambda-java-core-1.2.3.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/siddarthalegala/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/siddarthalegala/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp/target/surefire/surefirebooter-20251101104326828_3.jar /Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp/target/surefire 2025-11-01T10-43-26_799-jvmRun1 surefire-20251101104326828_1tmp surefire_0-20251101104326828_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp/target/test-classes:/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp/target/classes:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/s3/2.21.29/s3-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/aws-xml-protocol/2.21.29/aws-xml-protocol-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/aws-query-protocol/2.21.29/aws-query-protocol-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/protocol-core/2.21.29/protocol-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/arns/2.21.29/arns-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/profiles/2.21.29/profiles-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/crt-core/2.21.29/crt-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-auth/2.21.29/http-auth-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/identity-spi/2.21.29/identity-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-auth-spi/2.21.29/http-auth-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-auth-aws/2.21.29/http-auth-aws-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/checksums-spi/2.21.29/checksums-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/checksums/2.21.29/checksums-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/sdk-core/2.21.29/sdk-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/auth/2.21.29/auth-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/http-client-spi/2.21.29/http-client-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/regions/2.21.29/regions-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/annotations/2.21.29/annotations-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/utils/2.21.29/utils-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/aws-core/2.21.29/aws-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/metrics-spi/2.21.29/metrics-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/json-utils/2.21.29/json-utils-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/third-party-jackson-core/2.21.29/third-party-jackson-core-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/endpoints-spi/2.21.29/endpoints-spi-2.21.29.jar:/Users/siddarthalegala/.m2/repository/software/amazon/awssdk/url-connection-client/2.21.29/url-connection-client-2.21.29.jar:/Users/siddarthalegala/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.3/aws-lambda-java-core-1.2.3.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/siddarthalegala/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/siddarthalegala/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/siddarthalegala/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/siddarthalegala"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp/target/surefire/surefirebooter-20251101104326828_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="siddarthalegala"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.0.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/siddarthalegala/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/t0/v7t1g6px5_qdwtfr81fbsrf40000gn/T/"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="/Users/siddarthalegala/AWS/SAP_CO2/S2/sdk/java/myapp"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/siddarthalegala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="handleRequest_shouldReturnConstantValue" classname="com.example.myapp.AppTest" time="0.18">
+    <error message="Unable to load credentials from system settings. Access key must be specified either via environment variable (AWS_ACCESS_KEY_ID) or system property (aws.accessKeyId)." type="software.amazon.awssdk.core.exception.SdkClientException"><![CDATA[software.amazon.awssdk.core.exception.SdkClientException: Unable to load credentials from system settings. Access key must be specified either via environment variable (AWS_ACCESS_KEY_ID) or system property (aws.accessKeyId).
+	at software.amazon.awssdk.core.exception.SdkClientException$BuilderImpl.build(SdkClientException.java:111)
+	at software.amazon.awssdk.auth.credentials.internal.SystemSettingsCredentialsProvider.resolveCredentials(SystemSettingsCredentialsProvider.java:58)
+	at software.amazon.awssdk.auth.credentials.AwsCredentialsProvider.resolveIdentity(AwsCredentialsProvider.java:54)
+	at software.amazon.awssdk.services.s3.auth.scheme.internal.S3AuthSchemeInterceptor.lambda$trySelectAuthScheme$3(S3AuthSchemeInterceptor.java:137)
+	at software.amazon.awssdk.core.internal.util.MetricUtils.reportDuration(MetricUtils.java:73)
+	at software.amazon.awssdk.services.s3.auth.scheme.internal.S3AuthSchemeInterceptor.trySelectAuthScheme(S3AuthSchemeInterceptor.java:137)
+	at software.amazon.awssdk.services.s3.auth.scheme.internal.S3AuthSchemeInterceptor.selectAuthScheme(S3AuthSchemeInterceptor.java:81)
+	at software.amazon.awssdk.services.s3.auth.scheme.internal.S3AuthSchemeInterceptor.beforeExecution(S3AuthSchemeInterceptor.java:61)
+	at software.amazon.awssdk.core.interceptor.ExecutionInterceptorChain.lambda$beforeExecution$1(ExecutionInterceptorChain.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at software.amazon.awssdk.core.interceptor.ExecutionInterceptorChain.beforeExecution(ExecutionInterceptorChain.java:62)
+	at software.amazon.awssdk.awscore.internal.AwsExecutionContextBuilder.runInitialInterceptors(AwsExecutionContextBuilder.java:238)
+	at software.amazon.awssdk.awscore.internal.AwsExecutionContextBuilder.invokeInterceptorsAndCreateExecutionContext(AwsExecutionContextBuilder.java:129)
+	at software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler.invokeInterceptorsAndCreateExecutionContext(AwsSyncClientHandler.java:67)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.lambda$execute$1(BaseSyncClientHandler.java:76)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.measureApiCallSuccess(BaseSyncClientHandler.java:182)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.execute(BaseSyncClientHandler.java:74)
+	at software.amazon.awssdk.core.client.handler.SdkSyncClientHandler.execute(SdkSyncClientHandler.java:45)
+	at software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler.execute(AwsSyncClientHandler.java:53)
+	at software.amazon.awssdk.services.s3.DefaultS3Client.listBuckets(DefaultS3Client.java:6029)
+	at software.amazon.awssdk.services.s3.S3Client.listBuckets(S3Client.java:11324)
+	at com.example.myapp.App.<init>(App.java:21)
+	at com.example.myapp.AppTest.handleRequest_shouldReturnConstantValue(AppTest.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></error>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

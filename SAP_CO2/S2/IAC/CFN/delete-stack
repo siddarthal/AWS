@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo " delete stack s3 bucket using CloudFormation"
+STACK_NAME="s3-bucket-stack"
+aws cloudformation delete-stack --stack-name $STACK_NAME --region ap-south-2
